@@ -13,8 +13,20 @@
 }
 ```
 
+``` html
+<template>
+<h1>Hello {{ msg }}
+</template>
+
+<script lang="ls">
+module.exports =
+  data: ->
+    msg: 'World'
+</script>
+``` html
+
 # Why another Livescript loader?
-The original [livescript-loader](https://github.com/appedemic/livescript-loader) doesn't support .vue files
+The original [Livescript loader](https://github.com/appedemic/livescript-loader) doesn't support .vue files
 This is an improved/forked/inspired version of [coffee-loader](https://github.com/webpack/coffee-loader)
 
 ## License
