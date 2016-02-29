@@ -1,19 +1,19 @@
 {
-	"name": "vue-livescript-loader",
-	"version": "0.0.1",
-	"author": "Johan Borestad",
-	"description": "LiveScript loader module for webpack and Vue",
-	"scripts": {
-		"dist": "lsc -cb ./index.ls"
-	},
-	"dependencies": {
-		"loader-utils": "0.2.x"
-	},
+  "name": "vue-livescript-loader",
+  "version": "0.0.1-0",
+  "author": "Johan Borestad",
+  "description": "LiveScript loader module for webpack and Vue",
+  "scripts": {
+    "dist": "lsc -cb ./index.ls"
+  },
+  "dependencies": {
+    "loader-utils": "0.2.x"
+  },
   "peerDependencies": {
     "livescript": "^1.4.0"
   },
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/borestad/vue-livescript-loader.git"
-	}
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/borestad/vue-livescript-loader.git"
+  }
 }
