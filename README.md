@@ -23,7 +23,7 @@ module.exports =
   data: ->
     msg: 'World'
 </script>
-``` html
+```
 
 # Why another Livescript loader?
 The original [Livescript loader](https://github.com/appedemic/livescript-loader) doesn't support .vue files
