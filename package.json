@@ -7,10 +7,10 @@
     "dist": "lsc -cb ./index.ls"
   },
   "dependencies": {
-    "loader-utils": "0.2.x"
+    "loader-utils": "1.2.x"
   },
   "peerDependencies": {
-    "livescript": "^1.4.0"
+    "livescript": "^1.6.0"
   },
   "repository": {
     "type": "git",

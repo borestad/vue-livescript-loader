@@ -7,7 +7,7 @@ module.exports = (source) ->
   @cacheable?!
   const ls-request = Utils.get-remaining-request(this)
   const js-request = Utils.get-current-request(this)
-  const query = Utils.parse-query(@query)
+  const query = Utils.getOptions(@query) || {}
   result = void
 
   # Support .vue files by replacing '//' with '#'
